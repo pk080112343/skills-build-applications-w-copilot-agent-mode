@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -109,3 +111,47 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+:root {
+  color-scheme: light;
+  color: #18201d;
+  background: #f2f4f0;
+  font: 14px/1.5 'DM Sans', 'Avenir Next', sans-serif;
+  font-synthesis: none;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #18201d;
+  --muted: #76807a;
+  --line: #e3e8e2;
+  --surface: #ffffff;
+  --green: #153d31;
+  --lime: #c8e76b;
+  --coral: #e8755c;
+  --blue: #79a9c2;
+}
+
+* { box-sizing: border-box; }
+
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  display: block;
+  margin: 0;
+  border: 0;
+  text-align: left;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f2f4f0;
+  background-image: radial-gradient(rgba(21, 61, 49, 0.065) 0.7px, transparent 0.7px);
+  background-size: 18px 18px;
+}
+
+button, input, select, textarea { font: inherit; }
+a { color: inherit; }
